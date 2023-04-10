@@ -7,14 +7,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Products</title>
 
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/slick-theme.css">
     <link rel="stylesheet" href="assets/css/dev.css">
-
 </head>
 
 <body class="products">
     <section class="hero-banner-products container">
         <div class="col-block left-block">
-
+            <div class="product-slider">
+                <div>
+                    <img src="assets/images/bice-hero-prod.png" alt="bice-hero-prod">
+                </div>
+                <div>
+                    <img src="assets/images/bice-hero-prod-2.png" alt="bice-hero-prod">
+                </div>
+                <div>
+                    <img src="assets/images/bice-hero-prod-3.png" alt="bice-hero-prod">
+                </div>
+            </div>
         </div>
         <div class="col-block right-block">
             <div class="top-sec">
@@ -38,14 +49,18 @@
                     <div class="star-review">
                         <img src="assets/images/stars.svg" alt="stars">
                         <div class="number-review">
-                            <span class="c-red">359</span> Reviews
+                            <span class="c-red">359 </span> Reviews
                         </div>
                     </div>
                 </div>
             </div>
             <div class="info-product">
                 <h2 class="h2-product">ROADSTER V2 GRAVEL EDITION</h2>
-                <p>Our original roadster is back again. Simple, fast, and fun, this electric bike is as clean as it gets. With a completely concealed battery and quiet motor, onlookers aren’t going to understand how you pedal so fast. The Gravel version of the Roadster v2 features lower gearing, a single speed Gates belt drive, Tektro disc brakes, Continental gravel tires, internal Samsung Cells, a compact LCD display, and fully smoothed alloy frame.</p>
+                <p>Our original roadster is back again. Simple, fast, and fun, this electric bike is as clean as it
+                    gets. With a completely concealed battery and quiet motor, onlookers aren’t going to understand how
+                    you pedal so fast. The Gravel version of the Roadster v2 features lower gearing, a single speed
+                    Gates belt drive, Tektro disc brakes, Continental gravel tires, internal Samsung Cells, a compact
+                    LCD display, and fully smoothed alloy frame.</p>
             </div>
             <div class="frame-type-select-wrapp">
                 <label>FRAME TYPE</label>
@@ -55,9 +70,98 @@
                     <option value="2">60 cm</option>
                 </select>
             </div>
+            <div class="color-wrapp">
+                <label>Colors</label>
+                <div class="colors-block">
+                    <ul class="colors-list">
+                        <li class="color color-1 active"></li>
+                        <li class="color color-2"></li>
+                        <li class="color color-3"></li>
+                        <li class="color color-4"></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="add-cart-wrapp">
+                <div class="counter-block">
+                    <button class="minus">-</button>
+                    <span class="count">1</span>
+                    <button class="plus">+</button>
+                </div>
+                <a href="#" class="btn btn-red ">add to cart</a>
+            </div>
         </div>
     </section>
 
+    <section id="mini-banner-products" class="mini-banner-products">
+        <div class="container mini-banner-products-container">
+            <div class="img-product-wrapp">
+                <img src="assets/images/bice-hero-prod.png" alt="bice-hero-prod">
+            </div>
+            <div class="title-min-product-wrapp">
+                <h2>ROADSTER V2</h2>
+                <div class="subtitle">Urban Lightweight Electric Bike</div>
+            </div>
+            <div class="add-cart-wrapp">
+                <div class="counter-block">
+                    <button class="minus">-</button>
+                    <span class="count">1</span>
+                    <button class="plus">+</button>
+                </div>
+            </div>
+            <div class="price-wrapp">
+                <div class="price">
+                    $ 1,245
+                </div>
+            </div>
+            <div class="btn-wrapp">
+                <a href="#" class="btn btn-red ">By now</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="container">
+            <div class="features-wrapp">
+                <div class="feature">
+                    <div class="img-wrapp">
+                        <img src="assets/images/speed.svg" alt="speed">
+                    </div>
+                    <h3 class="h3-features">speed</h3>
+                    <p>Class 3 electric bike, up to 24 mph on pedal assist</p>
+                </div>
+                <div class="feature">
+                    <div class="img-wrapp">
+                        <img src="assets/images/motor.svg" alt="motor">
+                    </div>
+                    <h3 class="h3-features">motor</h3>
+                    <p>Efficient 350w geared hub motor with 40nm torque</p>
+                </div>
+                <div class="feature">
+                    <div class="img-wrapp">
+                        <img src="assets/images/range.svg" alt="range">
+                    </div>
+                    <h3 class="h3-features">range</h3>
+                    <p>20-30 miles depending on rider weight, terrain, incline, level of assist, etc.</p>
+                </div>
+                <div class="feature">
+                    <div class="img-wrapp">
+                        <img src="assets/images/frame.svg" alt="frame">
+                    </div>
+                    <h3 class="h3-features">frame</h3>
+                    <p>6061 Aluminum Alloy Frame, integrated 36V battery and electric components</p>
+                </div>
+                <div class="feature">
+                    <div class="img-wrapp">
+                        <img src="assets/images/comfort.svg" alt="comfort">
+                    </div>
+                    <h3 class="h3-features">comfort</h3>
+                    <p>Frame geometry & components built for road performance</p>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
 
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"
         integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous">
